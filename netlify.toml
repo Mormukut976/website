@@ -1,0 +1,8 @@
+[build]
+  base = "frontend"
+  publish = "dist"
+  command = "npm run build"
+
+# (optional) If you ever add functions later, you can set them here
+#[functions]
+#  directory = "netlify/functions"
